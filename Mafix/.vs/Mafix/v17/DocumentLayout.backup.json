@@ -1,0 +1,1384 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b246131\\source\\repos\\Mafix\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\controllers\\relatoriocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:controllers\\relatoriocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\relatorio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\relatorio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\producao\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\producao\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\controllers\\maquinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:controllers\\maquinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\repositorio\\irelatoriorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:repositorio\\irelatoriorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\repositorio\\relatoriorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:repositorio\\relatoriorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\controllers\\producaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:controllers\\producaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\repositorio\\producaorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:repositorio\\producaorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\producao\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\producao\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\controllers\\operadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:controllers\\operadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\producao\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\producao\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\repositorio\\iprodutorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:repositorio\\iprodutorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\repositorio\\iproducaorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:repositorio\\iproducaorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\maquina\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\maquina\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\produto\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\produto\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\models\\produtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:models\\produtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\models\\producaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:models\\producaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\repositorio\\operadorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:repositorio\\operadorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\data\\bancocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:data\\bancocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\repositorio\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:repositorio\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\repositorio\\ioperadorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:repositorio\\ioperadorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\usuario\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\usuario\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\models\\operadormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:models\\operadormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\repositorio\\imaquinarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:repositorio\\imaquinarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\shared\\components\\menu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\shared\\components\\menu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\viewcomponnents\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:viewcomponnents\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\mafix.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:mafix.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\controllers\\restritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:controllers\\restritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\models\\maquinamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:models\\maquinamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\services\\producaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:services\\producaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\services\\iproducaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:services\\iproducaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\restrito\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\restrito\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\filters\\paginarestritasomenteadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:filters\\paginarestritasomenteadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\operador\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\operador\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\filters\\paginaparausuariologado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:filters\\paginaparausuariologado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\producao\\apagarconfirmacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\producao\\apagarconfirmacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\migrations\\20250220140825_adicionandocolunahorasparadasproducao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:migrations\\20250220140825_adicionandocolunahorasparadasproducao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\migrations\\20250219180532_adicionandotabelaproducao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:migrations\\20250219180532_adicionandotabelaproducao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\migrations\\bancocontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:migrations\\bancocontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\repositorio\\maquinarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:repositorio\\maquinarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250219173439_AdicionandoTabelaProducao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250219173439_AdicionandoTabelaProducao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250219173309_AdicionandoTabelaProducao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250219173309_AdicionandoTabelaProducao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\helper\\sessao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:helper\\sessao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\shared\\_layoutdeslogado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\shared\\_layoutdeslogado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\helper\\isessao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:helper\\isessao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\maquina\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\maquina\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\produto\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\produto\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\usuario\\apagarconfirmacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\usuario\\apagarconfirmacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\produto\\apagarconfirmacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\produto\\apagarconfirmacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\enums\\perfilenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:enums\\perfilenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\operador\\apagarconfirmacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\operador\\apagarconfirmacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\operador\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\operador\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\operador\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\operador\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\maquina\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\maquina\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\views\\maquina\\apagarconfirmacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:views\\maquina\\apagarconfirmacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250217171503_CriandoTabelaMaquinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250217171503_CriandoTabelaMaquinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\migrations\\20250217180332_adicionandodescricaomaquina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:migrations\\20250217180332_adicionandodescricaomaquina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\migrations\\20250217172344_criandotabelamaquinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:migrations\\20250217172344_criandotabelamaquinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\migrations\\20250218183345_adicionandotabelaprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:migrations\\20250218183345_adicionandotabelaprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\migrations\\20250218175301_adicionandotabelaoperadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:migrations\\20250218175301_adicionandotabelaoperadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\migrations\\20250218190404_adicionandotabelausuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:migrations\\20250218190404_adicionandotabelausuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\migrations\\20250219112331_adicionandocolunanatabelaprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:migrations\\20250219112331_adicionandocolunanatabelaprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|c:\\users\\b246131\\source\\repos\\mafix\\migrations\\20250221152609_adicionandocolunaeficienciatabelaprodu\u00E7\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E43215-4051-4205-962E-0956086E68B8}|Mafix.csproj|solutionrelative:migrations\\20250221152609_adicionandocolunaeficienciatabelaprodu\u00E7\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RelatorioRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\RelatorioRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\RelatorioRepositorio.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\RelatorioRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\RelatorioRepositorio.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T16:57:51.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRelatorioRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\IRelatorioRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\IRelatorioRepositorio.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\IRelatorioRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\IRelatorioRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T16:55:11.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "20250221152609_AdicionandoColunaEficienciaTabelaProdu\u00E7\u00E3o.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250221152609_AdicionandoColunaEficienciaTabelaProdu\u00E7\u00E3o.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250221152609_AdicionandoColunaEficienciaTabelaProdu\u00E7\u00E3o.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250221152609_AdicionandoColunaEficienciaTabelaProdu\u00E7\u00E3o.cs",
+              "RelativeToolTip": "Migrations\\20250221152609_AdicionandoColunaEficienciaTabelaProdu\u00E7\u00E3o.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T15:26:10.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Relatorio\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Relatorio\\Index.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Relatorio\\Index.cshtml",
+              "RelativeToolTip": "Views\\Relatorio\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T20:11:16.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Mafix.csproj",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Mafix.csproj",
+              "RelativeDocumentMoniker": "Mafix.csproj",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Mafix.csproj",
+              "RelativeToolTip": "Mafix.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-20T19:52:14.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RelatorioController.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\RelatorioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RelatorioController.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\RelatorioController.cs",
+              "RelativeToolTip": "Controllers\\RelatorioController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwDkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T19:42:03.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IProducaoService.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Services\\IProducaoService.cs",
+              "RelativeDocumentMoniker": "Services\\IProducaoService.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Services\\IProducaoService.cs",
+              "RelativeToolTip": "Services\\IProducaoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T16:15:35.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ProducaoService.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Services\\ProducaoService.cs",
+              "RelativeDocumentMoniker": "Services\\ProducaoService.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Services\\ProducaoService.cs",
+              "RelativeToolTip": "Services\\ProducaoService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T16:13:33.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PaginaRestritaSomenteAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Filters\\PaginaRestritaSomenteAdmin.cs",
+              "RelativeDocumentMoniker": "Filters\\PaginaRestritaSomenteAdmin.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Filters\\PaginaRestritaSomenteAdmin.cs",
+              "RelativeToolTip": "Filters\\PaginaRestritaSomenteAdmin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T16:04:35.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Restrito\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Restrito\\Index.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Restrito\\Index.cshtml",
+              "RelativeToolTip": "Views\\Restrito\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T15:56:47.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RestritoController.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\RestritoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RestritoController.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\RestritoController.cs",
+              "RelativeToolTip": "Controllers\\RestritoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T15:52:59.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20250220140825_AdicionandoColunaHorasParadasProducao.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250220140825_AdicionandoColunaHorasParadasProducao.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250220140825_AdicionandoColunaHorasParadasProducao.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250220140825_AdicionandoColunaHorasParadasProducao.cs",
+              "RelativeToolTip": "Migrations\\20250220140825_AdicionandoColunaHorasParadasProducao.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T14:08:25.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ApagarConfirmacao.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Producao\\ApagarConfirmacao.cshtml",
+              "RelativeDocumentMoniker": "Views\\Producao\\ApagarConfirmacao.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Producao\\ApagarConfirmacao.cshtml",
+              "RelativeToolTip": "Views\\Producao\\ApagarConfirmacao.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T18:46:14.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Producao\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Producao\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Producao\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Producao\\Editar.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T18:36:59.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Producao\\Criar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Producao\\Criar.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Producao\\Criar.cshtml",
+              "RelativeToolTip": "Views\\Producao\\Criar.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T18:32:54.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Producao\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Producao\\Index.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Producao\\Index.cshtml",
+              "RelativeToolTip": "Views\\Producao\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T18:26:13.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProducaoController.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\ProducaoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProducaoController.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\ProducaoController.cs",
+              "RelativeToolTip": "Controllers\\ProducaoController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T18:20:51.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProducaoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\ProducaoRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\ProducaoRepositorio.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\ProducaoRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\ProducaoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T18:08:47.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IProducaoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\IProducaoRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\IProducaoRepositorio.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\IProducaoRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\IProducaoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T18:07:28.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20250219180532_AdicionandoTabelaProducao.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250219180532_AdicionandoTabelaProducao.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250219180532_AdicionandoTabelaProducao.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250219180532_AdicionandoTabelaProducao.cs",
+              "RelativeToolTip": "Migrations\\20250219180532_AdicionandoTabelaProducao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T18:05:33.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "BancoContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\BancoContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\BancoContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\BancoContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\BancoContextModelSnapshot.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwGwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T17:58:28.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20250219173439_AdicionandoTabelaProducao.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250219173439_AdicionandoTabelaProducao.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250219173439_AdicionandoTabelaProducao.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250219173439_AdicionandoTabelaProducao.cs",
+              "RelativeToolTip": "Migrations\\20250219173439_AdicionandoTabelaProducao.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T17:34:39.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20250219173309_AdicionandoTabelaProducao.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250219173309_AdicionandoTabelaProducao.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250219173309_AdicionandoTabelaProducao.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250219173309_AdicionandoTabelaProducao.cs",
+              "RelativeToolTip": "Migrations\\20250219173309_AdicionandoTabelaProducao.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T17:33:09.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProducaoModel.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Models\\ProducaoModel.cs",
+              "RelativeDocumentMoniker": "Models\\ProducaoModel.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Models\\ProducaoModel.cs",
+              "RelativeToolTip": "Models\\ProducaoModel.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwDkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T17:23:26.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PaginaParaUsuarioLogado.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Filters\\PaginaParaUsuarioLogado.cs",
+              "RelativeDocumentMoniker": "Filters\\PaginaParaUsuarioLogado.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Filters\\PaginaParaUsuarioLogado.cs",
+              "RelativeToolTip": "Filters\\PaginaParaUsuarioLogado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T17:07:01.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\ViewComponnents\\Menu.cs",
+              "RelativeDocumentMoniker": "ViewComponnents\\Menu.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\ViewComponnents\\Menu.cs",
+              "RelativeToolTip": "ViewComponnents\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T13:46:10.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Shared\\Components\\Menu\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Menu\\Default.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Shared\\Components\\Menu\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Menu\\Default.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBJwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T13:42:50.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Sessao.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Helper\\Sessao.cs",
+              "RelativeDocumentMoniker": "Helper\\Sessao.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Helper\\Sessao.cs",
+              "RelativeToolTip": "Helper\\Sessao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBEAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T13:17:50.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ISessao.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Helper\\ISessao.cs",
+              "RelativeDocumentMoniker": "Helper\\ISessao.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Helper\\ISessao.cs",
+              "RelativeToolTip": "Helper\\ISessao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T13:16:33.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T12:26:56.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T12:14:40.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T12:13:50.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "_LayoutDeslogado.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Shared\\_LayoutDeslogado.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutDeslogado.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Shared\\_LayoutDeslogado.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutDeslogado.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T12:12:37.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "20250219112331_AdicionandoColunaNaTabelaProdutos.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250219112331_AdicionandoColunaNaTabelaProdutos.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250219112331_AdicionandoColunaNaTabelaProdutos.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250219112331_AdicionandoColunaNaTabelaProdutos.cs",
+              "RelativeToolTip": "Migrations\\20250219112331_AdicionandoColunaNaTabelaProdutos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:23:31.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ApagarConfirmacao.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Usuario\\ApagarConfirmacao.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\ApagarConfirmacao.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Usuario\\ApagarConfirmacao.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\ApagarConfirmacao.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T19:42:49.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Usuario\\Criar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\Criar.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Usuario\\Criar.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\Criar.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T19:38:28.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Usuario\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Usuario\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\Editar.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAABhwC0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T19:29:08.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Usuario\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\Index.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Usuario\\Index.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\Index.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAewDwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T19:25:31.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:19:51.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\UsuarioRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\UsuarioRepositorio.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\UsuarioRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\UsuarioRepositorio.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwAYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:09:52.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUsuarioRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\IUsuarioRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\IUsuarioRepositorio.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\IUsuarioRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\IUsuarioRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:08:31.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "20250218190404_AdicionandoTabelaUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250218190404_AdicionandoTabelaUsuarios.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250218190404_AdicionandoTabelaUsuarios.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250218190404_AdicionandoTabelaUsuarios.cs",
+              "RelativeToolTip": "Migrations\\20250218190404_AdicionandoTabelaUsuarios.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:04:04.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "PerfilEnum.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Enums\\PerfilEnum.cs",
+              "RelativeDocumentMoniker": "Enums\\PerfilEnum.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Enums\\PerfilEnum.cs",
+              "RelativeToolTip": "Enums\\PerfilEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T18:58:45.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UsuarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Models\\UsuarioModel.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioModel.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Models\\UsuarioModel.cs",
+              "RelativeToolTip": "Models\\UsuarioModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T18:56:18.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "20250218183345_AdicionandoTabelaProdutos.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250218183345_AdicionandoTabelaProdutos.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250218183345_AdicionandoTabelaProdutos.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250218183345_AdicionandoTabelaProdutos.cs",
+              "RelativeToolTip": "Migrations\\20250218183345_AdicionandoTabelaProdutos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T18:33:46.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ApagarConfirmacao.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Produto\\ApagarConfirmacao.cshtml",
+              "RelativeDocumentMoniker": "Views\\Produto\\ApagarConfirmacao.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Produto\\ApagarConfirmacao.cshtml",
+              "RelativeToolTip": "Views\\Produto\\ApagarConfirmacao.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T18:32:39.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Produto\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Produto\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Produto\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Produto\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T18:29:05.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Produto\\Criar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Produto\\Criar.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Produto\\Criar.cshtml",
+              "RelativeToolTip": "Views\\Produto\\Criar.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAABhwCYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T18:27:17.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Produto\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Produto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Produto\\Index.cshtml",
+              "RelativeToolTip": "Views\\Produto\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T18:23:05.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "Controllers\\ProdutoController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T18:15:42.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProdutoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\ProdutoRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\ProdutoRepositorio.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\ProdutoRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\ProdutoRepositorio.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T18:11:44.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IProdutoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\IProdutoRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\IProdutoRepositorio.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\IProdutoRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\IProdutoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T18:07:17.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProdutoModel.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Models\\ProdutoModel.cs",
+              "RelativeDocumentMoniker": "Models\\ProdutoModel.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Models\\ProdutoModel.cs",
+              "RelativeToolTip": "Models\\ProdutoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T18:03:45.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "20250218175301_AdicionandoTabelaOperadores.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250218175301_AdicionandoTabelaOperadores.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250218175301_AdicionandoTabelaOperadores.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250218175301_AdicionandoTabelaOperadores.cs",
+              "RelativeToolTip": "Migrations\\20250218175301_AdicionandoTabelaOperadores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T17:53:02.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ApagarConfirmacao.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Operador\\ApagarConfirmacao.cshtml",
+              "RelativeDocumentMoniker": "Views\\Operador\\ApagarConfirmacao.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Operador\\ApagarConfirmacao.cshtml",
+              "RelativeToolTip": "Views\\Operador\\ApagarConfirmacao.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T17:21:26.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Operador\\Criar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Operador\\Criar.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Operador\\Criar.cshtml",
+              "RelativeToolTip": "Views\\Operador\\Criar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T17:21:23.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Operador\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Operador\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Operador\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Operador\\Editar.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvyMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T17:21:20.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OperadorRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\OperadorRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\OperadorRepositorio.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\OperadorRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\OperadorRepositorio.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T17:10:37.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IOperadorRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\IOperadorRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\IOperadorRepositorio.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\IOperadorRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\IOperadorRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T17:09:36.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OperadorModel.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Models\\OperadorModel.cs",
+              "RelativeDocumentMoniker": "Models\\OperadorModel.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Models\\OperadorModel.cs",
+              "RelativeToolTip": "Models\\OperadorModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T17:06:42.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OperadorController.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\OperadorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OperadorController.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\OperadorController.cs",
+              "RelativeToolTip": "Controllers\\OperadorController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T17:04:59.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Operador\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Operador\\Index.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Operador\\Index.cshtml",
+              "RelativeToolTip": "Views\\Operador\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAEBVwDEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T17:00:33.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-17T20:21:00.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwCAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-17T19:53:42.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "20250217180332_AdicionandoDescricaoMaquina.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250217180332_AdicionandoDescricaoMaquina.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250217180332_AdicionandoDescricaoMaquina.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250217180332_AdicionandoDescricaoMaquina.cs",
+              "RelativeToolTip": "Migrations\\20250217180332_AdicionandoDescricaoMaquina.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T18:03:32.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IMaquinaRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\IMaquinaRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\IMaquinaRepositorio.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\IMaquinaRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\IMaquinaRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T17:28:31.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "MaquinaRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\MaquinaRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\MaquinaRepositorio.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Repositorio\\MaquinaRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\MaquinaRepositorio.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAhwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T17:28:00.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "20250217172344_CriandoTabelaMaquinas.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250217172344_CriandoTabelaMaquinas.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250217172344_CriandoTabelaMaquinas.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250217172344_CriandoTabelaMaquinas.cs",
+              "RelativeToolTip": "Migrations\\20250217172344_CriandoTabelaMaquinas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T17:23:44.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T17:16:51.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T17:15:53.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "20250217171503_CriandoTabelaMaquinas.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250217171503_CriandoTabelaMaquinas.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250217171503_CriandoTabelaMaquinas.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Migrations\\20250217171503_CriandoTabelaMaquinas.cs",
+              "RelativeToolTip": "Migrations\\20250217171503_CriandoTabelaMaquinas.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T17:15:03.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "additional-methods.js",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeToolTip": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ViewState": "AgIAAP0AAAAAAAAAAAD4vxwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-17T16:21:02.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T16:18:25.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-17T16:15:58.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BancoContext.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Data\\BancoContext.cs",
+              "RelativeDocumentMoniker": "Data\\BancoContext.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Data\\BancoContext.cs",
+              "RelativeToolTip": "Data\\BancoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T16:08:47.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "MaquinaModel.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Models\\MaquinaModel.cs",
+              "RelativeDocumentMoniker": "Models\\MaquinaModel.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Models\\MaquinaModel.cs",
+              "RelativeToolTip": "Models\\MaquinaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T16:06:25.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ApagarConfirmacao.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Maquina\\ApagarConfirmacao.cshtml",
+              "RelativeDocumentMoniker": "Views\\Maquina\\ApagarConfirmacao.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Maquina\\ApagarConfirmacao.cshtml",
+              "RelativeToolTip": "Views\\Maquina\\ApagarConfirmacao.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T15:13:53.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Maquina\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Maquina\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Maquina\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Maquina\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T15:13:36.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Maquina\\Criar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Maquina\\Criar.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Maquina\\Criar.cshtml",
+              "RelativeToolTip": "Views\\Maquina\\Criar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T15:13:19.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Maquina\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Maquina\\Index.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Maquina\\Index.cshtml",
+              "RelativeToolTip": "Views\\Maquina\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T14:10:52.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MaquinaController.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\MaquinaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MaquinaController.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\MaquinaController.cs",
+              "RelativeToolTip": "Controllers\\MaquinaController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:10:10.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T14:06:53.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwBEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T13:52:53.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\b246131\\source\\repos\\Mafix\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T13:20:49.691Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

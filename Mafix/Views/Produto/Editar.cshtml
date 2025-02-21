@@ -1,0 +1,53 @@
+﻿@model ProdutoModel
+@{
+    ViewData["Title"] = "Editar Produto";
+}
+<div class="text-center">
+
+    <h1 class="display-4"> Editar Produto</h1>
+
+
+</div>
+
+<form asp-controller="Produto" asp-action="Alterar" method="post">
+
+    <input type="hidden" asp-for="Id"/>
+
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" asp-for="Nome" class="form-control" placeholder="Digite o nome do produto">
+        @Html.ValidationMessageFor(x => x.Nome)
+    </div>
+
+    <div class="form-group">
+        <label for="codigo">Codigo</label>
+        <input type="text" asp-for="Codigo" class="form-control" placeholder="Digite o codigo do produto">
+        @Html.ValidationMessageFor(x => x.Codigo)
+    </div>
+
+    <div class="form-group">
+        <label for="modelo">Modelo</label>
+        <input type="text" asp-for="Modelo" class="form-control" placeholder="Digite o modelo do produto">
+        @Html.ValidationMessageFor(x => x.Modelo)
+    </div>
+
+    <div class="form-group">
+        <label for="cor">Cor</label>
+        <input type="text" asp-for="Cor" class="form-control" placeholder="Digite a cor do produto">
+        @Html.ValidationMessageFor(x => x.Cor)
+    </div>
+
+    <div class="form-group">
+        <label for="quantidade">Quantidade</label>
+        <input type="text" asp-for="Quantidade" class="form-control" placeholder="Digite a quantidade que equivale a 100% em uma hora do produto">
+        @Html.ValidationMessageFor(x => x.Cor)
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-primary w-100">Alterar</button>
+    <br />
+    <br />
+    <a class="btn btn-secondary w-100" asp-controller="Produto" asp-action="Index">Voltar</a>
+</form>
+

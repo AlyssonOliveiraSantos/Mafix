@@ -1,0 +1,79 @@
+﻿@model List<ProducaoModel>
+@{
+    ViewData["Title"] = "Listagem de Produção";
+}
+<div class="text-center">
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-primary" role="button" asp-controller="Producao" asp-action="Criar">Adicionar produção</a>
+    </div>
+
+    <br />
+
+    @if (TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            <button type = "button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+            @TempData["MensagemSucesso"]
+    </div>
+    }
+    @if (TempData["MensagemError"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+            @TempData["MensagemError"]
+        </div>
+    }
+
+    <br />
+    <br />
+
+    <h1 class="display-4"> Listagem de Producao</h1>
+
+    <table class="table" id="table-produtos">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Operador</th>
+                <th scope="col">Maquina</th>
+                <th scope="col">Produto</th>
+                <th scope="col">Quantidade Produzida</th>
+                <th scope="col">DataProducao</th>
+                <th scope="col">Hora de Inicio</th>
+                <th scope="col">Hora de Fim</th>
+                <th scope="col">Horas Paradas</th>
+                <th scope="col">Eficiencia</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model != null && Model.Any())
+            {
+                foreach (ProducaoModel producao in Model)
+                {
+                    <tr>
+                        <th scope="row">@producao.Id</th>
+                        <td>@producao.Operador.Nome</td>
+                        <td>@producao.Maquina.Nome</td>
+                        <td>@producao.Produto.Nome</td>
+                        <td>@producao.QuantidadeProduzida</td>
+                        <td>@producao.DataProducao</td>
+                        <td>@producao.HoraDeInicio</td>
+                        <td>@producao.HoraDeFim</td>
+                        <td>@producao.HoraParada</td>
+                        <td>@producao.Eficiencia%</td>
+                        
+                        <td>
+                            <div class="btn-group" role="group">
+                                <a role="button" class="btn btn-primary" asp-route-id="@producao.Id" asp-controller="Producao" asp-action="Editar">Editar</a>
+                                <a role="button" class="btn btn-danger" asp-route-id="@producao.Id" asp-controller="Producao" asp-action="ApagarConfirmacao">Apagar</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+            
+
+        </tbody>
+    </table>
+</div>
+

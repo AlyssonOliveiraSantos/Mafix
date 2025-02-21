@@ -1,0 +1,15 @@
+﻿@model ProducaoModel
+@{
+    ViewData["Title"] = "Confirmacao de apagar a produção";
+}
+
+<div class="text-center">
+    <h3> Realmente deseja apagar a produção da data (@Model.DataProducao)</h3>
+</div>
+
+<br />
+<br />
+<a class="btn btn-primary  w-100" role="button" asp-controller="Producao" asp-action="Index">Cancelar exclusão</a>
+<br />
+<br />
+<a class="btn btn-danger  w-100" role="button" asp-controller="Producao" asp-route-id="@Model.Id" asp-action="Apagar">Confirmar exclusão</a>

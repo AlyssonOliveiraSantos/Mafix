@@ -1,0 +1,66 @@
+﻿@model List<OperadorModel>
+@{
+    ViewData["Title"] = "Listagem de Operadores";
+}
+<div class="text-center">
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-primary" role="button" asp-controller="Operador" asp-action="Criar">Adicionar um novo operador</a>
+    </div>
+
+    <br />
+
+    @if (TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            <button type = "button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+            @TempData["MensagemSucesso"]
+    </div>
+    }
+    @if (TempData["MensagemError"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+            @TempData["MensagemError"]
+        </div>
+    }
+
+    <br />
+    <br />
+
+    <h1 class="display-4"> Listagem de Operadores</h1>
+
+    <table class="table" id="table-operadores">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Cadastro</th>
+                <th scope="col">Secao</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model != null && Model.Any())
+            {
+                foreach (OperadorModel operador in Model)
+                {
+                    <tr>
+                        <th scope="row">@operador.Id</th>
+                        <td>@operador.Nome</td>
+                        <td>@operador.Cadastro</td>
+                        <td>@operador.Secao</td>
+                        <td>
+                            <div class="btn-group" role="group">
+                                <a role="button" class="btn btn-primary" asp-route-id="@operador.Id" asp-controller="Operador" asp-action="Editar">Editar</a>
+                                <a role="button" class="btn btn-danger" asp-route-id="@operador.Id" asp-controller="Operador" asp-action="ApagarConfirmacao">Apagar</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+            
+
+        </tbody>
+    </table>
+</div>
+

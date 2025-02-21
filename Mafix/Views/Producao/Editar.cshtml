@@ -1,0 +1,75 @@
+﻿@model ProducaoModel
+@{
+    ViewData["Title"] = "Editar Produção";
+}
+<div class="text-center">
+
+    <h1 class="display-4"> Editar Produção</h1>
+
+
+</div>
+
+<form asp-controller="Producao" asp-action="Alterar" method="post">
+
+    <input type="hidden" asp-for="Id"/>
+
+    <div class="form-group">
+        <label for="operadorId">Operador</label>
+        <select asp-for="OperadorId" asp-items="ViewBag.Operadores" class="form-control">
+            <option value="">Selecione um operador</option>
+        </select>
+
+
+    </div>
+
+    <div class="form-group">
+        <label for="maquinaId">Maquina</label>
+        <select asp-for="MaquinaId" asp-items="ViewBag.Maquinas" class="form-control">
+            <option value="">Selecione uma máquina</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="produtoId">Produto</label>
+        <select asp-for="ProdutoId" asp-items="ViewBag.Produtos" class="form-control">
+            <option value="">Selecione um produto</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="QuantidadeProduzida">Quantidade produzida</label>
+        <input type="text" asp-for="QuantidadeProduzida" class="form-control" placeholder="Digite a quantidade produzida">
+
+    </div>
+
+    <div class="form-group">
+        <label for="DataProducao">Data da produção</label>
+        <input type="date" asp-for="DataProducao" class="form-control" value="@DateTime.Today.ToString("yyyy-MM-dd")">
+    </div>
+
+    <div class="form-group">
+        <label for="HoraDeInicio">Hora de inicio</label>
+        <input type="time" asp-for="HoraDeInicio" class="form-control" placeholder="Digite a hora de inicio da produção">
+
+    </div>
+
+    <div class="form-group">
+        <label for="HoraDeFim">Hora de fim</label>
+        <input type="time" asp-for="HoraDeFim" class="form-control" placeholder="Digite a hora de fim da produção">
+
+    </div>
+
+    <div class="form-group">
+        <label for="HoraParada">Horas Paradas</label>
+        <input type="time" asp-for="HoraParada" class="form-control" placeholder="Digite a as horas paradas">
+
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-primary w-100">Alterar</button>
+    <br />
+    <br />
+    <a class="btn btn-secondary w-100" asp-controller="Producao" asp-action="Index">Voltar</a>
+</form>
+

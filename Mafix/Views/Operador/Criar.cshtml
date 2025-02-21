@@ -1,0 +1,39 @@
+﻿@model OperadorModel
+@{
+    ViewData["Title"] = "Criar Operador";
+}
+<div class="text-center">
+
+    <h1 class="display-4"> Cadastrar Operador</h1>
+
+
+</div>
+
+<form asp-controller="Operador" asp-action="Criar" method="post">
+    
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" asp-for="Nome" class="form-control" placeholder="Digite o nome do operador">
+        @Html.ValidationMessageFor(x => x.Nome)
+    </div>
+
+    <div class="form-group">
+        <label for="cadastro">Cadastro</label>
+        <input type="text" asp-for="Cadastro" class="form-control" placeholder="Digite o cadastro do operador">
+        @Html.ValidationMessageFor(x => x.Cadastro)
+    </div>
+
+    <div class="form-group">
+        <label for="secao">Seção</label>
+        <input type="text" asp-for="Secao" class="form-control" placeholder="Digite a seção do operador">
+        @Html.ValidationMessageFor(x => x.Secao)
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-primary w-100">Adicionar</button>
+    <br />
+    <br />
+    <a class="btn btn-secondary w-100" asp-controller="Operador" asp-action="Index">Voltar</a>
+</form>
+

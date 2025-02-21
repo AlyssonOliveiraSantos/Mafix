@@ -1,0 +1,40 @@
+﻿@model MaquinaModel
+@{
+    ViewData["Title"] = "Editar Maquina";
+}
+<div class="text-center">
+
+    <h1 class="display-4"> Editar Maquina</h1>
+
+
+</div>
+
+<form asp-controller="Maquina" asp-action="Alterar" method="post">
+
+    <input type="hidden" asp-for="Id"/>
+
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" asp-for="Nome" class="form-control" placeholder="Digite o nome da maquina">
+        @Html.ValidationMessageFor(x => x.Nome)
+    </div>
+
+    <div class="form-group">
+        <label for="secao">Seção</label>
+        <input type="text" asp-for="Secao" class="form-control" placeholder="Digite a seção da maquina">
+        @Html.ValidationMessageFor(x => x.Secao)
+    </div>
+
+    <div class="form-group">
+        <label for="descricao">Descrição</label>
+        <input type="text" asp-for="Descricao" class="form-control" placeholder="Digite a descrição da maquina">
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-primary w-100">Alterar</button>
+    <br />
+    <br />
+    <a class="btn btn-secondary w-100" asp-controller="Maquina" asp-action="Index">Voltar</a>
+</form>
+
