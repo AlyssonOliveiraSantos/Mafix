@@ -1,6 +1,6 @@
 ﻿using Mafix.Models;
 
-namespace Mafix.Repositorio
+namespace Mafix.Repositorio.Interfaces
 {
     public interface IMaquinaRepositorio
     {

@@ -1,6 +1,7 @@
 ﻿using FastReport.Export.PdfSimple;
 using Mafix.Models;
-using Mafix.Repositorio;
+using Mafix.Repositorio.Interfaces;
+using Mafix.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
@@ -8,22 +9,13 @@ namespace Mafix.Controllers
 {
     public class RelatorioController : Controller
     {
-        private readonly IRelatorioRepositorio _relatorioRepositorio;
-        private readonly IProducaoRepositorio _producaoRepositorio;
-        private readonly IMaquinaRepositorio _maquinaRepositorio;
-        private readonly IOperadorRepositorio _operadorRepositorio;
+        private readonly IRelatorioService _relatorioService;
         private readonly IWebHostEnvironment _webHostEnv;
-        public RelatorioController(IRelatorioRepositorio relatorioRepositorio,
-                                   IWebHostEnvironment webHostEnv,
-                                   IProducaoRepositorio producaoRepositorio,
-                                   IMaquinaRepositorio maquinaRepositorio,
-                                   IOperadorRepositorio operadorRepositorio)
+        public RelatorioController(IRelatorioService relatorioService,
+                                   IWebHostEnvironment webHostEnv)
         {
-            _relatorioRepositorio = relatorioRepositorio;
+            _relatorioService = relatorioService;
             _webHostEnv = webHostEnv;
-            _producaoRepositorio = producaoRepositorio;
-            _maquinaRepositorio = maquinaRepositorio;
-            _operadorRepositorio = operadorRepositorio;
         }
         public IActionResult Index()
         {
@@ -33,15 +25,23 @@ namespace Mafix.Controllers
         public IActionResult MaquinasPorDataReport()
         {
 
-            List<MaquinaModel> maquinas = _maquinaRepositorio.BuscarTodas();
+            List<MaquinaModel> maquinas = _relatorioService.BuscarTodasMaquinas();
             ViewBag.Maquinas = new SelectList(maquinas, "Id", "Nome");
             return View();
         }
 
         public IActionResult OperadoresPorDataReport()
         {
-            List<OperadorModel> operador = _operadorRepositorio.BuscarTodos();
+            List<OperadorModel> operador = _relatorioService.BuscarTodosOperadores();
             ViewBag.Operadores = new SelectList(operador, "Id", "Nome");
+            return View();
+        }
+
+        public IActionResult MaquinasProducaoGeralPorDataReport()
+        {
+
+            List<MaquinaModel> maquinas = _relatorioService.BuscarTodasMaquinas();
+            ViewBag.Maquinas = new SelectList(maquinas, "Id", "Nome");
             return View();
         }
 
@@ -55,7 +55,7 @@ namespace Mafix.Controllers
             DateOnly dateOnly1 = new DateOnly();
             int inteiro = 0;
 
-            var producao = _relatorioRepositorio.BuscarProducaoOperadorPorData(dateOnly, dateOnly1, inteiro);
+            var producao = _relatorioService.BuscarProducaoOperadorPorData(dateOnly, dateOnly1, inteiro);
 
             freport.Dictionary.RegisterBusinessObject(producao, "producaoList", 10, true);
             freport.Report.Save(reportFile);
@@ -69,7 +69,7 @@ namespace Mafix.Controllers
             var reportFile = caminhoReport;
 
             var freport = new FastReport.Report();
-            var producoes = _relatorioRepositorio.BuscarProducaoOperadorPorData(dataInicio, dataFim, id);
+            var producoes = _relatorioService.BuscarProducaoOperadorPorData(dataInicio, dataFim, id);
             double mediaEficiencia = 0;
             int quantidadeEficiencia = 0;
 
@@ -100,7 +100,7 @@ namespace Mafix.Controllers
             var reportFile = caminhoReport;
 
             var freport = new FastReport.Report();
-            var producoes = _relatorioRepositorio.BuscarProducaoMaquinaPorData(dataInicio, dataFim, id);
+            var producoes = _relatorioService.BuscarProducaoMaquinaPorData(dataInicio, dataFim, id);
             double mediaEficiencia = 0;
             int quantidadeEficiencia = 0;
             foreach (var producao in producoes)
@@ -123,14 +123,14 @@ namespace Mafix.Controllers
             return File(ms.ToArray(), "application/pdf");
         }
 
-        public IActionResult MaquinasProducaoGeralReport()
+        public IActionResult MaquinasProducaoGeralReport(DateOnly dataInicio, DateOnly dataFim)
         {
 
             var caminhoReport = Path.Combine(_webHostEnv.WebRootPath, @"reports\MaquinaProducaoGeral.frx");
             var reportFile = caminhoReport;
 
             var freport = new FastReport.Report();
-            var producoes = _relatorioRepositorio.BuscarProducaoGeralMesMaquina();
+            var producoes = _relatorioService.BuscarProducaoGeralMesMaquina(dataInicio, dataFim);
 
             freport.Report.Load(reportFile);
             freport.Dictionary.RegisterBusinessObject(producoes, "producaoList", 10, true);

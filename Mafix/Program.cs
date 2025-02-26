@@ -1,6 +1,9 @@
 using Mafix.Data;
 using Mafix.Helper;
 using Mafix.Repositorio;
+using Mafix.Repositorio.Interfaces;
+using Mafix.Services;
+using Mafix.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Mafix
@@ -24,7 +27,7 @@ namespace Mafix
             builder.Services.AddScoped<IProducaoRepositorio, ProducaoRepositorio>();
             builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
             builder.Services.AddScoped<IParadaMaquinaRepositorio, ParadaMaquinaRepositorio>();
-            builder.Services.AddScoped<IRelatorioRepositorio, RelatorioRepositorio>();
+            builder.Services.AddScoped<IRelatorioService, RelatorioService>();
 
 
             builder.Services.AddSession(o =>

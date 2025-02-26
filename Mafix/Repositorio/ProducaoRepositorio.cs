@@ -1,5 +1,6 @@
 ﻿using Mafix.Data;
 using Mafix.Models;
+using Mafix.Repositorio.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Mafix.Repositorio
@@ -85,6 +86,35 @@ namespace Mafix.Repositorio
             return true;
         }
 
+        public List<ProducaoModel> BuscarProducaoPorDataMaquina(DateOnly dataInicio, DateOnly dataFim, int id)
+        {
+            List<ProducaoModel> producoes = _bancoContext.Producao.Where(x => x.DataProducao >= dataInicio && x.DataProducao <= dataFim && x.MaquinaId == id)
+             .Include(x => x.Operador)
+             .Include(x => x.Maquina)
+             .Include(x => x.Produto)
+             .OrderBy(x => x.DataProducao).ToList();
 
+            return producoes;
+        }
+        public List<ProducaoModel> BuscarProducaoPorDataOperador(DateOnly dataInicio, DateOnly dataFim, int id)
+        {
+            List<ProducaoModel> producoes = _bancoContext.Producao.Where(x => x.DataProducao >= dataInicio && x.DataProducao <= dataFim && x.OperadorId == id)
+           .Include(x => x.Operador)
+           .Include(x => x.Maquina)
+           .Include(x => x.Produto)
+           .OrderBy(x => x.DataProducao).ToList();
+
+            return producoes;
+        }
+
+        public List<ProducaoModel> BuscarProducaoGeralPorDataMaquinas(DateOnly dataInicio, DateOnly dataFim)
+        {
+            List<ProducaoModel> producoes = _bancoContext.Producao.Where(x => x.DataProducao >= dataInicio && x.DataProducao <= dataFim)
+            .Include(x => x.Operador)
+            .Include(x => x.Maquina)
+            .OrderBy(x => x.DataProducao).ToList();
+
+            return producoes;
+        }
     }
 }

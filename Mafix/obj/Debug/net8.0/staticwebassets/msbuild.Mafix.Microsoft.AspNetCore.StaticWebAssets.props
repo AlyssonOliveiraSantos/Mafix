@@ -1110,8 +1110,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ec2f1oiav5</Fingerprint>
-      <Integrity>YqU7mpxsh7jpUdgpJthIQT0oi4GWXdluUAAXxtTDosM=</Integrity>
+      <Fingerprint>4cj8z4q6vc</Fingerprint>
+      <Integrity>HDninmFTacLSa3+9KmRpB4OXWxU3H37vsf569YmYZ20=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\reports\Maquina.frx'))</OriginalItemSpec>
@@ -1128,8 +1128,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6gfg7x6ot9</Fingerprint>
-      <Integrity>Np0fb50LlEghdIeGg7w7gbV2tkdal6Op9b+VNjwzguI=</Integrity>
+      <Fingerprint>0my1730iss</Fingerprint>
+      <Integrity>eDgh+cCGG9F17JeOdVZSLgtsNzJ7uZFkd//f7Owz0wU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\reports\MaquinaProducaoGeral.frx'))</OriginalItemSpec>
@@ -1146,8 +1146,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>997odalnpl</Fingerprint>
-      <Integrity>vd8pdsmQngs63ZI6Wr8ahKz0ghWMZ8sXVPnxDOwytxs=</Integrity>
+      <Fingerprint>pqpscq16pl</Fingerprint>
+      <Integrity>r8rRZD2oSkWjhQ463ZZfUDJoXYl1xFP4o4hd6D62jdE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\reports\Operador.frx'))</OriginalItemSpec>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UgH5ndEU34o3db2TzWlWYa+nDu3AcmnVOZBC27ETQv4=",
+  "Hash": "CSLx/KBuRITrRAcmjpLi9AdvgaXtE0RUT3BMnuuI+B8=",
   "Source": "Mafix",
   "BasePath": "_content/Mafix",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ec2f1oiav5",
-      "Integrity": "YqU7mpxsh7jpUdgpJthIQT0oi4GWXdluUAAXxtTDosM=",
+      "Fingerprint": "4cj8z4q6vc",
+      "Integrity": "HDninmFTacLSa3+9KmRpB4OXWxU3H37vsf569YmYZ20=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\reports\\Maquina.frx"
@@ -1354,8 +1354,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6gfg7x6ot9",
-      "Integrity": "Np0fb50LlEghdIeGg7w7gbV2tkdal6Op9b+VNjwzguI=",
+      "Fingerprint": "0my1730iss",
+      "Integrity": "eDgh+cCGG9F17JeOdVZSLgtsNzJ7uZFkd//f7Owz0wU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\reports\\MaquinaProducaoGeral.frx"
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "997odalnpl",
-      "Integrity": "vd8pdsmQngs63ZI6Wr8ahKz0ghWMZ8sXVPnxDOwytxs=",
+      "Fingerprint": "pqpscq16pl",
+      "Integrity": "r8rRZD2oSkWjhQ463ZZfUDJoXYl1xFP4o4hd6D62jdE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\reports\\Operador.frx"
@@ -6326,7 +6326,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 17:03:11 GMT"
+          "Value": "Wed, 26 Feb 2025 13:49:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6363,7 +6363,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 17:03:11 GMT"
+          "Value": "Wed, 26 Feb 2025 13:49:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6408,7 +6408,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 17:03:11 GMT"
+          "Value": "Wed, 26 Feb 2025 13:49:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6453,7 +6453,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 17:03:11 GMT"
+          "Value": "Wed, 26 Feb 2025 13:49:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6468,7 +6468,7 @@
       ]
     },
     {
-      "Route": "reports/Maquina.ec2f1oiav5.frx",
+      "Route": "reports/Maquina.4cj8z4q6vc.frx",
       "AssetFile": "C:\\Users\\b246131\\source\\repos\\Programa\\Mafix\\wwwroot\\reports\\Maquina.frx",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6478,7 +6478,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4537"
+          "Value": "4541"
         },
         {
           "Name": "Content-Type",
@@ -6486,11 +6486,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YqU7mpxsh7jpUdgpJthIQT0oi4GWXdluUAAXxtTDosM=\""
+          "Value": "\"HDninmFTacLSa3+9KmRpB4OXWxU3H37vsf569YmYZ20=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 19:00:02 GMT"
+          "Value": "Tue, 25 Feb 2025 19:06:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6500,7 +6500,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ec2f1oiav5"
+          "Value": "4cj8z4q6vc"
         },
         {
           "Name": "label",
@@ -6508,7 +6508,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YqU7mpxsh7jpUdgpJthIQT0oi4GWXdluUAAXxtTDosM="
+          "Value": "sha256-HDninmFTacLSa3+9KmRpB4OXWxU3H37vsf569YmYZ20="
         }
       ]
     },
@@ -6523,7 +6523,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4537"
+          "Value": "4541"
         },
         {
           "Name": "Content-Type",
@@ -6531,11 +6531,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YqU7mpxsh7jpUdgpJthIQT0oi4GWXdluUAAXxtTDosM=\""
+          "Value": "\"HDninmFTacLSa3+9KmRpB4OXWxU3H37vsf569YmYZ20=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 19:00:02 GMT"
+          "Value": "Tue, 25 Feb 2025 19:06:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6545,12 +6545,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YqU7mpxsh7jpUdgpJthIQT0oi4GWXdluUAAXxtTDosM="
+          "Value": "sha256-HDninmFTacLSa3+9KmRpB4OXWxU3H37vsf569YmYZ20="
         }
       ]
     },
     {
-      "Route": "reports/MaquinaProducaoGeral.6gfg7x6ot9.frx",
+      "Route": "reports/MaquinaProducaoGeral.0my1730iss.frx",
       "AssetFile": "C:\\Users\\b246131\\source\\repos\\Programa\\Mafix\\wwwroot\\reports\\MaquinaProducaoGeral.frx",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6560,7 +6560,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3059"
+          "Value": "3062"
         },
         {
           "Name": "Content-Type",
@@ -6568,11 +6568,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Np0fb50LlEghdIeGg7w7gbV2tkdal6Op9b+VNjwzguI=\""
+          "Value": "\"eDgh+cCGG9F17JeOdVZSLgtsNzJ7uZFkd//f7Owz0wU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 19:00:28 GMT"
+          "Value": "Tue, 25 Feb 2025 19:03:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6582,7 +6582,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6gfg7x6ot9"
+          "Value": "0my1730iss"
         },
         {
           "Name": "label",
@@ -6590,7 +6590,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Np0fb50LlEghdIeGg7w7gbV2tkdal6Op9b+VNjwzguI="
+          "Value": "sha256-eDgh+cCGG9F17JeOdVZSLgtsNzJ7uZFkd//f7Owz0wU="
         }
       ]
     },
@@ -6605,7 +6605,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3059"
+          "Value": "3062"
         },
         {
           "Name": "Content-Type",
@@ -6613,11 +6613,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Np0fb50LlEghdIeGg7w7gbV2tkdal6Op9b+VNjwzguI=\""
+          "Value": "\"eDgh+cCGG9F17JeOdVZSLgtsNzJ7uZFkd//f7Owz0wU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 19:00:28 GMT"
+          "Value": "Tue, 25 Feb 2025 19:03:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6627,52 +6627,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Np0fb50LlEghdIeGg7w7gbV2tkdal6Op9b+VNjwzguI="
-        }
-      ]
-    },
-    {
-      "Route": "reports/Operador.997odalnpl.frx",
-      "AssetFile": "C:\\Users\\b246131\\source\\repos\\Programa\\Mafix\\wwwroot\\reports\\Operador.frx",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4279"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vd8pdsmQngs63ZI6Wr8ahKz0ghWMZ8sXVPnxDOwytxs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 19:00:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "997odalnpl"
-        },
-        {
-          "Name": "label",
-          "Value": "reports/Operador.frx"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vd8pdsmQngs63ZI6Wr8ahKz0ghWMZ8sXVPnxDOwytxs="
+          "Value": "sha256-eDgh+cCGG9F17JeOdVZSLgtsNzJ7uZFkd//f7Owz0wU="
         }
       ]
     },
@@ -6687,7 +6642,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4279"
+          "Value": "4282"
         },
         {
           "Name": "Content-Type",
@@ -6695,11 +6650,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vd8pdsmQngs63ZI6Wr8ahKz0ghWMZ8sXVPnxDOwytxs=\""
+          "Value": "\"r8rRZD2oSkWjhQ463ZZfUDJoXYl1xFP4o4hd6D62jdE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 19:00:51 GMT"
+          "Value": "Tue, 25 Feb 2025 19:05:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6709,7 +6664,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vd8pdsmQngs63ZI6Wr8ahKz0ghWMZ8sXVPnxDOwytxs="
+          "Value": "sha256-r8rRZD2oSkWjhQ463ZZfUDJoXYl1xFP4o4hd6D62jdE="
+        }
+      ]
+    },
+    {
+      "Route": "reports/Operador.pqpscq16pl.frx",
+      "AssetFile": "C:\\Users\\b246131\\source\\repos\\Programa\\Mafix\\wwwroot\\reports\\Operador.frx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r8rRZD2oSkWjhQ463ZZfUDJoXYl1xFP4o4hd6D62jdE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 19:05:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pqpscq16pl"
+        },
+        {
+          "Name": "label",
+          "Value": "reports/Operador.frx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r8rRZD2oSkWjhQ463ZZfUDJoXYl1xFP4o4hd6D62jdE="
         }
       ]
     }

@@ -1,5 +1,6 @@
 ﻿using Mafix.Data;
 using Mafix.Models;
+using Mafix.Repositorio.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Mafix.Repositorio

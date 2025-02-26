@@ -128,6 +128,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvXE1hcXVpbmFzUG9yRGF0YVJlcG9ydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/b246131/source/repos/Programa/Mafix/Views/Relatorio/MaquinasProducaoGeralPorDataReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvXE1hcXVpbmFzUHJvZHVjYW9HZXJhbFBvckRhdGFSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/b246131/source/repos/Programa/Mafix/Views/Relatorio/OperadoresPorDataReport.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvXE9wZXJhZG9yZXNQb3JEYXRhUmVwb3J0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

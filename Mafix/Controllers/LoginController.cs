@@ -1,6 +1,6 @@
 ﻿using Mafix.Helper;
 using Mafix.Models;
-using Mafix.Repositorio;
+using Mafix.Repositorio.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Mafix.Controllers
