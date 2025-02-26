@@ -41,6 +41,7 @@
                 <th scope="col">Hora de Inicio</th>
                 <th scope="col">Hora de Fim</th>
                 <th scope="col">Horas Paradas</th>
+                <th scope="col">Motivo</th>
                 <th scope="col">Eficiencia</th>
                 <th scope="col"></th>
             </tr>
@@ -57,9 +58,10 @@
                         <td>@producao.Produto.Nome</td>
                         <td>@producao.QuantidadeProduzida</td>
                         <td>@producao.DataProducao</td>
-                        <td>@producao.HoraDeInicio</td>
-                        <td>@producao.HoraDeFim</td>
-                        <td>@producao.HoraParada</td>
+                        <td>@producao.HoraDeInicio.ToString(@"hh\:mm")</td>
+                        <td>@producao.HoraDeFim.ToString(@"hh\:mm")</td>
+                        <td>@producao.HoraParada.ToString(@"hh\:mm")</td>
+                        <td>@producao.ParadaMaquina.Codigo</td>
                         <td>@producao.Eficiencia%</td>
                         
                         <td>

@@ -1,0 +1,45 @@
+﻿@model ParadaMaquinaModel
+@{
+    ViewData["Title"] = "Editar Produto";
+}
+<div class="text-center">
+
+    <h1 class="display-4"> Editar Produto</h1>
+
+
+</div>
+
+<form asp-controller="ParadaMaquina" asp-action="Alterar" method="post">
+
+    <input type="hidden" asp-for="Id"/>
+
+    <div class="form-group">
+        <label for="codigo">Codigo</label>
+        <input type="text" asp-for="Codigo" class="form-control" placeholder="Digite o codigo da hora parada">
+        @Html.ValidationMessageFor(x => x.Codigo)
+    </div>
+
+    <div class="form-group">
+        <label for="codigo">Descrição</label>
+        <input type="text" asp-for="Descricao" class="form-control" placeholder="Digite a descrição do motivo">
+        @Html.ValidationMessageFor(x => x.Descricao)
+    </div>
+
+    <div class="form-group">
+        <label for="ContabilizaHoraParada">Contabiliza hora parada</label>
+        <select asp-for="ContabilizaHoraParada" class="form-control">
+            <option value="">Selecione</option>
+            <option value="@Mafix.Enums.ContabilizaHoraParadaEnum.Contabiliza">Sim</option>
+            <option value="@Mafix.Enums.ContabilizaHoraParadaEnum.NaoContabiliza">Não</option>
+        </select>
+        @Html.ValidationMessageFor(x => x.ContabilizaHoraParada)
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-primary w-100">Alterar</button>
+    <br />
+    <br />
+    <a class="btn btn-secondary w-100" asp-controller="ParadaMaquina" asp-action="Index">Voltar</a>
+</form>
+

@@ -1,7 +1,6 @@
 using Mafix.Data;
 using Mafix.Helper;
 using Mafix.Repositorio;
-using Mafix.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace Mafix
@@ -11,6 +10,7 @@ namespace Mafix
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.WebHost.UseUrls("https://inf05:5000");
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -23,8 +23,8 @@ namespace Mafix
             builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
             builder.Services.AddScoped<IProducaoRepositorio, ProducaoRepositorio>();
             builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
+            builder.Services.AddScoped<IParadaMaquinaRepositorio, ParadaMaquinaRepositorio>();
             builder.Services.AddScoped<IRelatorioRepositorio, RelatorioRepositorio>();
-            builder.Services.AddScoped<IProducaoService, ProducaoService>();
 
 
             builder.Services.AddSession(o =>

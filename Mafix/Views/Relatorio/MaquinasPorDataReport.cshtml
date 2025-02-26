@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Relatorios de Maquinas";
+}
+
+<form asp-controller="Relatorio" asp-action="MaquinasProducaoReport">
+
+    <label for="maquinaId">Máquina</label>
+    <select id="maquinaId" name="id" asp-items="ViewBag.Maquinas" class="form-control">
+        <option value="">Selecione uma maquina</option>
+    </select>
+
+    <label for="dataInicio">Data Início:</label>
+    <input type="date" class="form-control" id="dataInicio" name="dataInicio" required>
+
+    <label for="dataFim">Data Fim:</label>
+    <input type="date" class="form-control" id="dataFim" name="dataFim" required>
+    <br />
+    <button type="submit" class="btn btn-primary">Gerar Relatório</button>
+</form>

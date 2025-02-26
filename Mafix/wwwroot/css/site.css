@@ -33,3 +33,32 @@ body {
     width:  30px;
     height: 31px;
 }
+
+
+.select2-container .select2-selection--single {
+    height: 38px !important; 
+    padding: 6px 12px; 
+    border: 1px solid #ced4da; 
+    border-radius: 5px; 
+    display: flex;
+    align-items: center; 
+}
+
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    line-height: normal !important; 
+    font-size: 16px;
+    color: #495057; 
+}
+
+
+.select2-container .select2-selection--single .select2-selection__arrow {
+    height: 36px; 
+}
+
+
+.select2-container--default.select2-container--disabled .select2-selection--single {
+    background-color: #e9ecef;
+}
+
+

@@ -56,7 +56,8 @@ namespace Mafix.Controllers
             }
             catch (Exception e)
             {
-                TempData["MensagemError"] = "Ops! não foi possivel efetuar o login, tente novamente";
+                TempData["MensagemError"] = $"Ops! não foi possivel efetuar o login, tente novamente";
+                Console.WriteLine(e.Message);
                 return View("Index");
             }
         }

@@ -1,7 +1,6 @@
 ﻿using Mafix.Filters;
 using Mafix.Models;
 using Mafix.Repositorio;
-using Mafix.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -16,19 +15,20 @@ namespace Mafix.Controllers
         private readonly IOperadorRepositorio _operadorRepositorio;
         private readonly IMaquinaRepositorio _maquinaRepositorio;
         private readonly IProdutoRepositorio _produtoRepositorio;
-        private readonly IProducaoService _producaoService;
+        private readonly IParadaMaquinaRepositorio _paradaMaquinaRepositorio;
+
         
         public ProducaoController(IProducaoRepositorio producaoRepositorio,
                                   IOperadorRepositorio operadorRepositorio,
                                   IMaquinaRepositorio maquinaRepositorio,
                                   IProdutoRepositorio produtoRepositorio,
-                                  IProducaoService producaoService)
+                                  IParadaMaquinaRepositorio paradaMaquinaRepositorio)
         {
             _producaoRepositorio = producaoRepositorio;
             _operadorRepositorio = operadorRepositorio;
             _maquinaRepositorio = maquinaRepositorio;
             _produtoRepositorio = produtoRepositorio;
-            _producaoService = producaoService;
+            _paradaMaquinaRepositorio = paradaMaquinaRepositorio;
             
         }
 
@@ -45,26 +45,46 @@ namespace Mafix.Controllers
             List<OperadorModel> operadores = _operadorRepositorio.BuscarTodos();
             List<MaquinaModel> maquinas = _maquinaRepositorio.BuscarTodas();
             List<ProdutoModel> produtos = _produtoRepositorio.BuscarTodos();
-            ViewBag.Operadores = new SelectList(operadores, "Id", "Nome");
-            ViewBag.Maquinas = new SelectList(maquinas, "Id", "Nome");
-            ViewBag.Produtos = new SelectList(produtos, "Id", "Nome");
-            return View();
+            List<ParadaMaquinaModel> parada = _paradaMaquinaRepositorio.BuscarTodos();
+            ProducaoModel producao = new ProducaoModel();
+            ViewBag.Operadores = new SelectList(operadores, "Id", "Nome", producao.OperadorId);
+            ViewBag.Maquinas = new SelectList(maquinas, "Id", "Nome", producao.MaquinaId);
+            ViewBag.Produtos = new SelectList(produtos, "Id", "Nome", producao.ProdutoId);
+            ViewBag.Paradas = new SelectList(parada, "Id", "Codigo", producao.ParadaMaquinaId);
+            return View(producao);
         }
 
 
         [HttpPost]
         public IActionResult Criar(ProducaoModel producao)
         {
+
+
             try
             {
-                //  if (ModelState.IsValid)
-                // {
+                ModelState.Remove("Produto");
+                ModelState.Remove("Maquina");
+                ModelState.Remove("Operador");
+                ModelState.Remove("ParadaMaquina");
+
+                if (ModelState.IsValid)
+                 {
                     _producaoRepositorio.Adicionar(producao);
                     TempData["MensagemSucesso"] = "Produção cadastrada com sucesso!";
                     return RedirectToAction("Index");
-                //}
+                }
 
-              //  return View(producao);
+                List<OperadorModel> operadores = _operadorRepositorio.BuscarTodos();
+                List<MaquinaModel> maquinas = _maquinaRepositorio.BuscarTodas();
+                List<ProdutoModel> produtos = _produtoRepositorio.BuscarTodos();
+                List<ParadaMaquinaModel> parada = _paradaMaquinaRepositorio.BuscarTodos();
+                ProducaoModel produc = new ProducaoModel();
+                ViewBag.Operadores = new SelectList(operadores, "Id", "Nome", produc.OperadorId);
+                ViewBag.Maquinas = new SelectList(maquinas, "Id", "Nome", produc.MaquinaId);
+                ViewBag.Produtos = new SelectList(produtos, "Id", "Nome", produc.ProdutoId);
+                ViewBag.Paradas = new SelectList(parada, "Id", "Codigo", produc.ParadaMaquinaId);
+
+                return View(produc);
             }
             catch (Exception e)
             {
@@ -79,9 +99,12 @@ namespace Mafix.Controllers
             List<OperadorModel> operadores = _operadorRepositorio.BuscarTodos();
             List<MaquinaModel> maquinas = _maquinaRepositorio.BuscarTodas();
             List<ProdutoModel> produtos = _produtoRepositorio.BuscarTodos();
-            ViewBag.Operadores = new SelectList(operadores, "Id", "Nome");
-            ViewBag.Maquinas = new SelectList(maquinas, "Id", "Nome");
-            ViewBag.Produtos = new SelectList(produtos, "Id", "Nome");
+            List<ParadaMaquinaModel> parada = _paradaMaquinaRepositorio.BuscarTodos();
+            ProducaoModel producao = new ProducaoModel();
+            ViewBag.Operadores = new SelectList(operadores, "Id", "Nome", producao.OperadorId);
+            ViewBag.Maquinas = new SelectList(maquinas, "Id", "Nome", producao.MaquinaId);
+            ViewBag.Produtos = new SelectList(produtos, "Id", "Nome", producao.ProdutoId);
+            ViewBag.Paradas = new SelectList(parada, "Id", "Codigo", producao.ParadaMaquinaId);
 
             ProducaoModel producaoModel = _producaoRepositorio.ListarPorId(id);
             return View(producaoModel);
@@ -91,13 +114,18 @@ namespace Mafix.Controllers
         {
             try
             {
-            //    if (ModelState.IsValid)
-             //   {
-                    _producaoRepositorio.Atualizar(producao);
+                ModelState.Remove("Produto");
+                ModelState.Remove("Maquina");
+                ModelState.Remove("Operador");
+                ModelState.Remove("ParadaMaquina");
+
+                if (ModelState.IsValid)
+                   {
+                _producaoRepositorio.Atualizar(producao);
                     TempData["MensagemSucesso"] = "Produção editada com sucesso!";
                     return RedirectToAction("Index");
-               // }
-               // return View("Editar", producao);
+                }
+                return View("Editar", producao);
             }
             catch(Exception e)
             {

@@ -17,7 +17,7 @@ namespace Mafix.Repositorio
 
         public ProducaoModel ListarPorId(int id)
         {
-            return _bancoContext.Producao.Include(x => x.Produto).FirstOrDefault(x => x.Id == id);
+            return _bancoContext.Producao.Include(x => x.Produto).Include(x => x.ParadaMaquina).FirstOrDefault(x => x.Id == id);
 
         }
 
@@ -30,7 +30,7 @@ namespace Mafix.Repositorio
         public List<ProducaoModel> BuscarTodos()
         {
             return _bancoContext.Producao
-                .Include(x => x.Operador).Include(x => x.Produto).Include(x => x.Maquina)
+                .Include(x => x.Operador).Include(x => x.Produto).Include(x => x.Maquina).Include(x => x.ParadaMaquina)
                 .ToList();
         }
 
@@ -38,6 +38,8 @@ namespace Mafix.Repositorio
         public ProducaoModel Adicionar(ProducaoModel producao)
         {
             producao.Produto = _bancoContext.Produtos.FirstOrDefault(x => x.Id == producao.ProdutoId);
+            producao.ParadaMaquina = _bancoContext.ParadaMaquina.FirstOrDefault(x => x.Id == producao.ParadaMaquinaId);
+
             producao.ProducaoCalculada();
             _bancoContext.Producao.Add(producao);
             _bancoContext.SaveChanges();
@@ -57,12 +59,14 @@ namespace Mafix.Repositorio
             producaoDb.OperadorId = producao.OperadorId;
             producaoDb.MaquinaId = producao.MaquinaId;
             producaoDb.ProdutoId = producao.ProdutoId;
+            producaoDb.ParadaMaquinaId = producao.ParadaMaquinaId;
             producaoDb.QuantidadeProduzida = producao.QuantidadeProduzida;
             producaoDb.DataProducao = producao.DataProducao;
             producaoDb.HoraDeInicio = producao.HoraDeInicio;
             producaoDb.HoraDeFim = producao.HoraDeFim;
             producaoDb.HoraParada = producao.HoraParada;
-            producao.Produto = _bancoContext.Produtos.FirstOrDefault(x => x.Id == producao.ProdutoId);
+            producaoDb.Produto = _bancoContext.Produtos.FirstOrDefault(x => x.Id == producao.ProdutoId);
+            producaoDb.ParadaMaquina = _bancoContext.ParadaMaquina.FirstOrDefault(x => x.Id == producao.ParadaMaquinaId);
             producaoDb.ProducaoCalculada();
            
             _bancoContext.Producao.Update(producaoDb);

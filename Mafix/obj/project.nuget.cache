@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qg0zhS7SDcI=",
+  "dgSpecHash": "MA7S1yC0Oh8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\b246131\\source\\repos\\Mafix\\Mafix.csproj",
+  "projectFilePath": "C:\\Users\\b246131\\source\\repos\\Programa\\Mafix\\Mafix.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\b246131\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\b246131\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

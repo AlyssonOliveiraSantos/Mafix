@@ -14,5 +14,6 @@ namespace Mafix.Data
         public DbSet<ProdutoModel> Produtos { get; set; }
         public DbSet<UsuarioModel> Usuarios { get; set; }
         public DbSet<ProducaoModel> Producao { get; set; }
+        public DbSet<ParadaMaquinaModel> ParadaMaquina { get; set; }
     }
 }

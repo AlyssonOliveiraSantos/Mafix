@@ -68,6 +68,29 @@ namespace Mafix.Migrations
                     b.ToTable("Operadores");
                 });
 
+            modelBuilder.Entity("Mafix.Models.ParadaMaquinaModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Codigo")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("ContabilizaHoraParada")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ParadaMaquina");
+                });
+
             modelBuilder.Entity("Mafix.Models.ProducaoModel", b =>
                 {
                     b.Property<int>("Id")
@@ -82,19 +105,22 @@ namespace Mafix.Migrations
                     b.Property<double>("Eficiencia")
                         .HasColumnType("float");
 
-                    b.Property<TimeOnly>("HoraDeFim")
+                    b.Property<TimeSpan>("HoraDeFim")
                         .HasColumnType("time");
 
-                    b.Property<TimeOnly>("HoraDeInicio")
+                    b.Property<TimeSpan>("HoraDeInicio")
                         .HasColumnType("time");
 
-                    b.Property<TimeOnly>("HoraParada")
+                    b.Property<TimeSpan>("HoraParada")
                         .HasColumnType("time");
 
                     b.Property<int>("MaquinaId")
                         .HasColumnType("int");
 
                     b.Property<int>("OperadorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ParadaMaquinaId")
                         .HasColumnType("int");
 
                     b.Property<int>("ProdutoId")
@@ -108,6 +134,8 @@ namespace Mafix.Migrations
                     b.HasIndex("MaquinaId");
 
                     b.HasIndex("OperadorId");
+
+                    b.HasIndex("ParadaMaquinaId");
 
                     b.HasIndex("ProdutoId");
 
@@ -197,6 +225,12 @@ namespace Mafix.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Mafix.Models.ParadaMaquinaModel", "ParadaMaquina")
+                        .WithMany()
+                        .HasForeignKey("ParadaMaquinaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Mafix.Models.ProdutoModel", "Produto")
                         .WithMany()
                         .HasForeignKey("ProdutoId")
@@ -206,6 +240,8 @@ namespace Mafix.Migrations
                     b.Navigation("Maquina");
 
                     b.Navigation("Operador");
+
+                    b.Navigation("ParadaMaquina");
 
                     b.Navigation("Produto");
                 });

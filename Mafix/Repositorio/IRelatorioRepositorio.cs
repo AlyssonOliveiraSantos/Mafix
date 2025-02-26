@@ -1,14 +1,15 @@
-﻿using Mafix.Models;
+﻿using Mafix.DTOs;
+using Mafix.Models;
 
 namespace Mafix.Repositorio
 {
     public interface IRelatorioRepositorio
     {
 
-        public List<ProducaoModel> BuscarProducaoMaquinaPorData(DateOnly dataInicio, DateOnly dataFim, int id);
-        public List<ProducaoModel> BuscarProducaoOperadorPorData(DateOnly dataInicio, DateOnly dataFim);
+        public List<ProducaoDTO> BuscarProducaoMaquinaPorData(DateOnly dataInicio, DateOnly dataFim, int id);
+        public List<ProducaoDTO> BuscarProducaoOperadorPorData(DateOnly dataInicio, DateOnly dataFim, int id);
 
-        public ProducaoModel BuscarProducaoGeralMesOperador();
-        public ProducaoModel BuscarProducaoGeralMesMaquina();
+        public List<ProducaoDTO> BuscarProducaoGeralMesOperador();
+        public List<ProducaoDTO> BuscarProducaoGeralMesMaquina();
     }
 }

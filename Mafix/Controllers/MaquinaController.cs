@@ -18,7 +18,7 @@ namespace Mafix.Controllers
         {
             List<MaquinaModel> maquinas = _maquinaRepositorio.BuscarTodas();
             return View(maquinas);
-        }
+        } 
 
         public IActionResult Criar()
         {

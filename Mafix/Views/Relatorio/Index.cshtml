@@ -1,24 +1,20 @@
 ﻿@{
     ViewData["Title"] = "Relatorios";
 }
-
-<a role="button" class="btn btn-primary" asp-controller="Relatorio" asp-action="createReport">Criar o Relatorio</a>
-
-<br />
 <br />
 
-<form asp-controller="Relatorio" asp-action="visuReport">
+<h3> Relatorio de produção de maquinas por data</h3>
+<a role="button" class="btn btn-primary" asp-controller="Relatorio" asp-action="MaquinasPorDataReport">Gerar relatorio</a>
+<br />
+<br />
+<br />
 
-    <label for="maquinaId">Máquina</label>
-    <select id="maquinaId" name="id" asp-items="ViewBag.Maquinas" class="form-control">
-        <option value="">Selecione uma máquina</option>
-    </select>
+<h3> Relatorio de produção de maquinas geral</h3>
+<a role="button" class="btn btn-primary" asp-controller="Relatorio" asp-action="MaquinasProducaoGeralReport">Gerar relatorio</a>
+<br />
+<br />
+<br />
 
-    <label for="dataInicio">Data Início:</label>
-    <input type="date" class="form-control"  id="dataInicio" name="dataInicio" required>
+<h3> Relatorio de produção de operadores por data</h3>
+<a role="button" class="btn btn-primary" asp-controller="Relatorio" asp-action="OperadoresPorDataReport">Gerar relatorio</a>
 
-    <label for="dataFim">Data Fim:</label>
-    <input type="date" class="form-control" id="dataFim" name="dataFim" required>
-    <br />
-    <button type="submit" class="btn btn-primary">Gerar Relatório</button>
-</form>

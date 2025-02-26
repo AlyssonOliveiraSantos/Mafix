@@ -4,12 +4,23 @@ $('.close-alert').click(function () {
     $('.alert').hide();
 });
 
+$(document).ready(function () {
+    $('.select2').select2({
+        placeholder: "Selecione uma opção",
+        allowClear: true,
+        width: '100%'
+    });
+});
+
+
 
 $(document).ready(function () {
     getDataTable('#table-maquinas');
     getDataTable('#table-operadores');
     getDataTable('#table-produtos'); 
     getDataTable('#table-usuarios');
+    getDataTable('#table-paradaMaquina');
+
 });
 
 function getDataTable(id) {

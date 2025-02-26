@@ -1,0 +1,15 @@
+﻿@model ParadaMaquinaModel
+@{
+    ViewData["Title"] = "Confirmacao de apagar o produto";
+}
+
+<div class="text-center">
+    <h3> Realmente deseja apagar o motivo codigo (@Model.Codigo)</h3>
+</div>
+
+<br />
+<br />
+<a class="btn btn-primary  w-100" role="button" asp-controller="ParadaMaquina" asp-action="Index">Cancelar exclusão</a>
+<br />
+<br />
+<a class="btn btn-danger  w-100" role="button" asp-controller="ParadaMaquina" asp-route-id="@Model.Id" asp-action="Apagar">Confirmar exclusão</a>
