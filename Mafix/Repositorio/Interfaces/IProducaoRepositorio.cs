@@ -1,4 +1,5 @@
-﻿using Mafix.Models;
+﻿using Mafix.DTOs;
+using Mafix.Models;
 
 namespace Mafix.Repositorio.Interfaces
 {
@@ -13,5 +14,12 @@ namespace Mafix.Repositorio.Interfaces
         List<ProducaoModel> BuscarProducaoPorDataMaquina(DateOnly dataInicio, DateOnly dataFim, int id);
         List<ProducaoModel> BuscarProducaoPorDataOperador(DateOnly dataInicio, DateOnly dataFim, int id);
         List<ProducaoModel> BuscarProducaoGeralPorDataMaquinas(DateOnly dataInicio, DateOnly dataFim);
+
+        OperadorModel BuscarOperadorPorId(int id);
+        MaquinaModel BuscarMaquinaPorId(int id);
+        ProdutoModel BuscarProdutoPorId(int id);
+        ParadaMaquinaModel BuscarParadaMaquinaPorId(int id);
+
+
     }
 }

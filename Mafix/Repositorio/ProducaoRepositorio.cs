@@ -69,11 +69,11 @@ namespace Mafix.Repositorio
             producaoDb.Produto = _bancoContext.Produtos.FirstOrDefault(x => x.Id == producao.ProdutoId);
             producaoDb.ParadaMaquina = _bancoContext.ParadaMaquina.FirstOrDefault(x => x.Id == producao.ParadaMaquinaId);
             producaoDb.ProducaoCalculada();
-           
+
             _bancoContext.Producao.Update(producaoDb);
             _bancoContext.SaveChanges();
             return producaoDb;
-            
+
         }
 
         public bool Apagar(int id)
@@ -115,6 +115,27 @@ namespace Mafix.Repositorio
             .OrderBy(x => x.DataProducao).ToList();
 
             return producoes;
+        }
+
+
+        public OperadorModel BuscarOperadorPorId(int id)
+        {
+            return _bancoContext.Operadores.FirstOrDefault(x => x.Id == id);
+        }
+
+        public MaquinaModel BuscarMaquinaPorId(int id)
+        {
+            return _bancoContext.Maquinas.FirstOrDefault(x => x.Id == id);
+        }
+
+        public ProdutoModel BuscarProdutoPorId(int id)
+        {
+            return _bancoContext.Produtos.FirstOrDefault(x => x.Id == id);
+        }
+
+        public ParadaMaquinaModel BuscarParadaMaquinaPorId(int id)
+        {
+            return _bancoContext.ParadaMaquina.FirstOrDefault(x => x.Id == id);
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿@model List<ProducaoModel>
+﻿@model List<Mafix.DTOs.ProducaoDTO>
 @{
     ViewData["Title"] = "Listagem de Produção";
 }
@@ -49,19 +49,19 @@
         <tbody>
             @if(Model != null && Model.Any())
             {
-                foreach (ProducaoModel producao in Model)
+                foreach (var producao in Model)
                 {
                     <tr>
                         <th scope="row">@producao.Id</th>
-                        <td>@producao.Operador.Nome</td>
-                        <td>@producao.Maquina.Nome</td>
-                        <td>@producao.Produto.Nome</td>
+                        <td>@producao.OperadorNome</td>
+                        <td>@producao.MaquinaNome</td>
+                        <td>@producao.ProdutoNome</td>
                         <td>@producao.QuantidadeProduzida</td>
                         <td>@producao.DataProducao</td>
                         <td>@producao.HoraDeInicio.ToString(@"hh\:mm")</td>
                         <td>@producao.HoraDeFim.ToString(@"hh\:mm")</td>
                         <td>@producao.HoraParada.ToString(@"hh\:mm")</td>
-                        <td>@producao.ParadaMaquina.Codigo</td>
+                        <td>@producao.ParadaMaquinaCodigo</td>
                         <td>@producao.Eficiencia%</td>
                         
                         <td>

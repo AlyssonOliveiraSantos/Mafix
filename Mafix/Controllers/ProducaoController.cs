@@ -1,6 +1,9 @@
-﻿using Mafix.Filters;
+﻿using Mafix.DTOs;
+using Mafix.Filters;
 using Mafix.Models;
 using Mafix.Repositorio.Interfaces;
+using Mafix.Services;
+using Mafix.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -11,52 +14,42 @@ namespace Mafix.Controllers
     [PaginaParaUsuarioLogado]
     public class ProducaoController : Controller
     {
-        private readonly IProducaoRepositorio _producaoRepositorio;
-        private readonly IOperadorRepositorio _operadorRepositorio;
-        private readonly IMaquinaRepositorio _maquinaRepositorio;
-        private readonly IProdutoRepositorio _produtoRepositorio;
-        private readonly IParadaMaquinaRepositorio _paradaMaquinaRepositorio;
+        private readonly IProducaoService _producaoService;
 
-        
-        public ProducaoController(IProducaoRepositorio producaoRepositorio,
-                                  IOperadorRepositorio operadorRepositorio,
-                                  IMaquinaRepositorio maquinaRepositorio,
-                                  IProdutoRepositorio produtoRepositorio,
-                                  IParadaMaquinaRepositorio paradaMaquinaRepositorio)
+
+        public ProducaoController(IProducaoService producaoService)
         {
-            _producaoRepositorio = producaoRepositorio;
-            _operadorRepositorio = operadorRepositorio;
-            _maquinaRepositorio = maquinaRepositorio;
-            _produtoRepositorio = produtoRepositorio;
-            _paradaMaquinaRepositorio = paradaMaquinaRepositorio;
-            
+            _producaoService = producaoService;
+
         }
 
 
         public IActionResult Index()
         {
-            List<ProducaoModel> producoes = _producaoRepositorio.BuscarTodos();
+            List<ProducaoDTO> producoes = _producaoService.BuscarTodasProducoesDTO();
             return View(producoes);
 
         }
 
         public IActionResult Criar()
         {
-            List<OperadorModel> operadores = _operadorRepositorio.BuscarTodos();
-            List<MaquinaModel> maquinas = _maquinaRepositorio.BuscarTodas();
-            List<ProdutoModel> produtos = _produtoRepositorio.BuscarTodos();
-            List<ParadaMaquinaModel> parada = _paradaMaquinaRepositorio.BuscarTodos();
-            ProducaoModel producao = new ProducaoModel();
-            ViewBag.Operadores = new SelectList(operadores, "Id", "Nome", producao.OperadorId);
-            ViewBag.Maquinas = new SelectList(maquinas, "Id", "Nome", producao.MaquinaId);
-            ViewBag.Produtos = new SelectList(produtos, "Id", "Nome", producao.ProdutoId);
-            ViewBag.Paradas = new SelectList(parada, "Id", "Codigo", producao.ParadaMaquinaId);
+            List<OperadorModel> operadores = _producaoService.BuscarTodosOperadores();
+            List<MaquinaModel> maquinas = _producaoService.BuscarTodasMaquinas();
+            List<ProdutoModel> produtos = _producaoService.BuscarTodosProdutos();
+            List<ParadaMaquinaModel> parada = _producaoService.BuscarTodasParadasMaquinas();
+            ProducaoDTO producao = new ProducaoDTO();
+            ViewBag.Operadores = new SelectList(operadores, "Id", "Nome", producao.OperadorNome);
+            ViewBag.Maquinas = new SelectList(maquinas, "Id", "Nome", producao.MaquinaNome);
+            ViewBag.Produtos = new SelectList(produtos, "Id", "Nome", producao.ProdutoNome);
+            ViewBag.Paradas = new SelectList(parada, "Id", "Codigo", producao.HoraParadaString);
+
             return View(producao);
         }
 
 
+
         [HttpPost]
-        public IActionResult Criar(ProducaoModel producao)
+        public IActionResult Criar(ProducaoDTO producao)
         {
 
 
@@ -69,15 +62,15 @@ namespace Mafix.Controllers
 
                 if (ModelState.IsValid)
                  {
-                    _producaoRepositorio.Adicionar(producao);
+                    _producaoService.AdicionarProducaoDTO(producao);
                     TempData["MensagemSucesso"] = "Produção cadastrada com sucesso!";
                     return RedirectToAction("Index");
                 }
 
-                List<OperadorModel> operadores = _operadorRepositorio.BuscarTodos();
-                List<MaquinaModel> maquinas = _maquinaRepositorio.BuscarTodas();
-                List<ProdutoModel> produtos = _produtoRepositorio.BuscarTodos();
-                List<ParadaMaquinaModel> parada = _paradaMaquinaRepositorio.BuscarTodos();
+                List<OperadorModel> operadores = _producaoService.BuscarTodosOperadores();
+                List<MaquinaModel> maquinas = _producaoService.BuscarTodasMaquinas();
+                List<ProdutoModel> produtos = _producaoService.BuscarTodosProdutos();
+                List<ParadaMaquinaModel> parada = _producaoService.BuscarTodasParadasMaquinas();
                 ProducaoModel produc = new ProducaoModel();
                 ViewBag.Operadores = new SelectList(operadores, "Id", "Nome", produc.OperadorId);
                 ViewBag.Maquinas = new SelectList(maquinas, "Id", "Nome", produc.MaquinaId);
@@ -96,21 +89,21 @@ namespace Mafix.Controllers
 
         public IActionResult Editar(int id)
         {
-            List<OperadorModel> operadores = _operadorRepositorio.BuscarTodos();
-            List<MaquinaModel> maquinas = _maquinaRepositorio.BuscarTodas();
-            List<ProdutoModel> produtos = _produtoRepositorio.BuscarTodos();
-            List<ParadaMaquinaModel> parada = _paradaMaquinaRepositorio.BuscarTodos();
-            ProducaoModel producao = new ProducaoModel();
+            List<OperadorModel> operadores = _producaoService.BuscarTodosOperadores();
+            List<MaquinaModel> maquinas = _producaoService.BuscarTodasMaquinas();
+            List<ProdutoModel> produtos = _producaoService.BuscarTodosProdutos();
+            List<ParadaMaquinaModel> parada = _producaoService.BuscarTodasParadasMaquinas();
+            ProducaoDTO producao = new ProducaoDTO();
             ViewBag.Operadores = new SelectList(operadores, "Id", "Nome", producao.OperadorId);
             ViewBag.Maquinas = new SelectList(maquinas, "Id", "Nome", producao.MaquinaId);
             ViewBag.Produtos = new SelectList(produtos, "Id", "Nome", producao.ProdutoId);
             ViewBag.Paradas = new SelectList(parada, "Id", "Codigo", producao.ParadaMaquinaId);
 
-            ProducaoModel producaoModel = _producaoRepositorio.ListarPorId(id);
-            return View(producaoModel);
+            ProducaoDTO producaoDto = _producaoService.BuscarTodasProducoesDTOPorId(id);
+            return View(producaoDto);
         }
         [HttpPost]
-        public IActionResult Alterar(ProducaoModel producao)
+        public IActionResult Alterar(ProducaoDTO producao)
         {
             try
             {
@@ -121,7 +114,7 @@ namespace Mafix.Controllers
 
                 if (ModelState.IsValid)
                    {
-                _producaoRepositorio.Atualizar(producao);
+                    _producaoService.AtualizarProducaoDTO(producao);
                     TempData["MensagemSucesso"] = "Produção editada com sucesso!";
                     return RedirectToAction("Index");
                 }
@@ -137,7 +130,7 @@ namespace Mafix.Controllers
 
         public IActionResult ApagarConfirmacao(int id)
         {
-            ProducaoModel producao = _producaoRepositorio.ListarPorId(id);
+            ProducaoDTO producao = _producaoService.BuscarTodasProducoesDTOPorId(id);
             return View(producao);
         }
 
@@ -146,7 +139,7 @@ namespace Mafix.Controllers
         {
             try
             {
-                bool apagado = _producaoRepositorio.Apagar(id);
+                bool apagado = _producaoService.ApagarProducaoDTOPorId(id);
 
                 if (apagado)
                 {

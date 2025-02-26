@@ -28,6 +28,7 @@ namespace Mafix
             builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
             builder.Services.AddScoped<IParadaMaquinaRepositorio, ParadaMaquinaRepositorio>();
             builder.Services.AddScoped<IRelatorioService, RelatorioService>();
+            builder.Services.AddScoped<IProducaoService, ProducaoService>();
 
 
             builder.Services.AddSession(o =>
