@@ -1,7 +1,10 @@
 ﻿using Mafix.Data;
+using Mafix.DTOs;
+using Mafix.Helper;
 using Mafix.Models;
 using Mafix.Repositorio.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 namespace Mafix.Repositorio
 {
@@ -32,13 +35,15 @@ namespace Mafix.Repositorio
         public UsuarioModel Adicionar(UsuarioModel usuario)
         {
             usuario.DataCadastro = DateTime.Now;
+            usuario.setSenhaHash();
             _bancoContext.Usuarios.Add(usuario);
             _bancoContext.SaveChanges();
             return usuario;
         }
 
-        public UsuarioModel Atualizar(UsuarioModel usuario)
+        public UsuarioModel Atualizar(UsuarioDTO usuario)
         {
+
             UsuarioModel usuarioDb = ListarPorId(usuario.Id);
 
             if (usuarioDb == null) throw new Exception("Houve um erro na atualização do usuario!");
@@ -46,7 +51,7 @@ namespace Mafix.Repositorio
             usuarioDb.Nome = usuario.Nome;
             usuarioDb.Login = usuario.Login;
             usuarioDb.Email = usuario.Email;
-            usuarioDb.Senha = usuario.Senha;
+            if(usuario.Senha != null)usuarioDb.Senha = usuario.Senha.GerarHash();
             usuarioDb.Perfil = usuario.Perfil;
             usuarioDb.DataAtualizacao = DateTime.Now;
 

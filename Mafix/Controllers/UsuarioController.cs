@@ -1,4 +1,5 @@
-﻿using Mafix.Filters;
+﻿using Mafix.DTOs;
+using Mafix.Filters;
 using Mafix.Models;
 using Mafix.Repositorio.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -56,7 +57,7 @@ namespace Mafix.Controllers
             return View(usuarioModel);
         }
         [HttpPost]
-        public IActionResult Alterar(UsuarioModel usuario)
+        public IActionResult Alterar(UsuarioDTO usuario)
         {
             try
             {

@@ -1,4 +1,5 @@
-﻿using Mafix.Models;
+﻿using Mafix.DTOs;
+using Mafix.Models;
 
 namespace Mafix.Repositorio.Interfaces
 {
@@ -8,7 +9,7 @@ namespace Mafix.Repositorio.Interfaces
         UsuarioModel ListarPorId(int id);
         List<UsuarioModel> BuscarTodos();
         UsuarioModel Adicionar(UsuarioModel usuario);
-        UsuarioModel Atualizar(UsuarioModel usuario);
+        UsuarioModel Atualizar(UsuarioDTO usuario);
         bool Apagar(int id);
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mafix")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85244a71ce2115b9ba6d73e400d7c2dabf58add7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc8ddd329e8d5e2274b8d8e008d7ff6ab50de72b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mafix")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mafix")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
