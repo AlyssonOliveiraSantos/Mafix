@@ -55,10 +55,12 @@ namespace Mafix.Controllers
 
             try
             {
-                ModelState.Remove("Produto");
-                ModelState.Remove("Maquina");
-                ModelState.Remove("Operador");
-                ModelState.Remove("ParadaMaquina");
+                ModelState.Remove("ProdutoNome");
+                ModelState.Remove("MaquinaNome");
+                ModelState.Remove("OperadorNome");
+                ModelState.Remove("HoraDeInicioString");
+                ModelState.Remove("HoraDeFimString");
+                ModelState.Remove("HoraParadaString");
 
                 if (ModelState.IsValid)
                  {
@@ -71,7 +73,7 @@ namespace Mafix.Controllers
                 List<MaquinaModel> maquinas = _producaoService.BuscarTodasMaquinas();
                 List<ProdutoModel> produtos = _producaoService.BuscarTodosProdutos();
                 List<ParadaMaquinaModel> parada = _producaoService.BuscarTodasParadasMaquinas();
-                ProducaoModel produc = new ProducaoModel();
+                ProducaoDTO produc = new ProducaoDTO();
                 ViewBag.Operadores = new SelectList(operadores, "Id", "Nome", produc.OperadorId);
                 ViewBag.Maquinas = new SelectList(maquinas, "Id", "Nome", produc.MaquinaId);
                 ViewBag.Produtos = new SelectList(produtos, "Id", "Nome", produc.ProdutoId);
@@ -93,11 +95,11 @@ namespace Mafix.Controllers
             List<MaquinaModel> maquinas = _producaoService.BuscarTodasMaquinas();
             List<ProdutoModel> produtos = _producaoService.BuscarTodosProdutos();
             List<ParadaMaquinaModel> parada = _producaoService.BuscarTodasParadasMaquinas();
-            ProducaoDTO producao = new ProducaoDTO();
-            ViewBag.Operadores = new SelectList(operadores, "Id", "Nome", producao.OperadorId);
-            ViewBag.Maquinas = new SelectList(maquinas, "Id", "Nome", producao.MaquinaId);
-            ViewBag.Produtos = new SelectList(produtos, "Id", "Nome", producao.ProdutoId);
-            ViewBag.Paradas = new SelectList(parada, "Id", "Codigo", producao.ParadaMaquinaId);
+            ProducaoDTO produc = new ProducaoDTO();
+            ViewBag.Operadores = new SelectList(operadores, "Id", "Nome", produc.OperadorId);
+            ViewBag.Maquinas = new SelectList(maquinas, "Id", "Nome", produc.MaquinaId);
+            ViewBag.Produtos = new SelectList(produtos, "Id", "Nome", produc.ProdutoId);
+            ViewBag.Paradas = new SelectList(parada, "Id", "Codigo", produc.ParadaMaquinaId);
 
             ProducaoDTO producaoDto = _producaoService.BuscarTodasProducoesDTOPorId(id);
             return View(producaoDto);
@@ -107,10 +109,12 @@ namespace Mafix.Controllers
         {
             try
             {
-                ModelState.Remove("Produto");
-                ModelState.Remove("Maquina");
-                ModelState.Remove("Operador");
-                ModelState.Remove("ParadaMaquina");
+                ModelState.Remove("ProdutoNome");
+                ModelState.Remove("MaquinaNome");
+                ModelState.Remove("OperadorNome");
+                ModelState.Remove("HoraDeInicioString");
+                ModelState.Remove("HoraDeFimString");
+                ModelState.Remove("HoraParadaString");
 
                 if (ModelState.IsValid)
                    {

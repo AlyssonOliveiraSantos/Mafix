@@ -18,7 +18,12 @@ namespace Mafix.Repositorio
 
         public ProducaoModel ListarPorId(int id)
         {
-            return _bancoContext.Producao.Include(x => x.Produto).Include(x => x.ParadaMaquina).FirstOrDefault(x => x.Id == id);
+            return _bancoContext.Producao
+                .Include(x => x.Produto).
+                Include(x => x.ParadaMaquina)
+                .Include(x => x.Operador)
+                .Include(x => x.Maquina)
+                .FirstOrDefault(x => x.Id == id);
 
         }
 
@@ -118,22 +123,22 @@ namespace Mafix.Repositorio
         }
 
 
-        public OperadorModel BuscarOperadorPorId(int id)
+        public OperadorModel BuscarOperadorPorId(int? id)
         {
             return _bancoContext.Operadores.FirstOrDefault(x => x.Id == id);
         }
 
-        public MaquinaModel BuscarMaquinaPorId(int id)
+        public MaquinaModel BuscarMaquinaPorId(int? id)
         {
             return _bancoContext.Maquinas.FirstOrDefault(x => x.Id == id);
         }
 
-        public ProdutoModel BuscarProdutoPorId(int id)
+        public ProdutoModel BuscarProdutoPorId(int? id)
         {
             return _bancoContext.Produtos.FirstOrDefault(x => x.Id == id);
         }
 
-        public ParadaMaquinaModel BuscarParadaMaquinaPorId(int id)
+        public ParadaMaquinaModel BuscarParadaMaquinaPorId(int? id)
         {
             return _bancoContext.ParadaMaquina.FirstOrDefault(x => x.Id == id);
         }

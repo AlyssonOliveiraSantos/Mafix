@@ -724,13 +724,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Mafix.mtivjfac3e.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9l9G5Sydtyr1t\u002BXkJdhDIVRxgbQCwB6fJThW7E4k0kA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2255"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229l9G5Sydtyr1t\u002BXkJdhDIVRxgbQCwB6fJThW7E4k0kA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 13:49:57 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2255"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229l9G5Sydtyr1t\u002BXkJdhDIVRxgbQCwB6fJThW7E4k0kA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 13:19:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Mafix/Mafix.mtivjfac3e.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Mafix.mtivjfac3e.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mtivjfac3e"},{"Name":"integrity","Value":"sha256-9l9G5Sydtyr1t\u002BXkJdhDIVRxgbQCwB6fJThW7E4k0kA="},{"Name":"label","Value":"_content/Mafix/Mafix.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2255"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229l9G5Sydtyr1t\u002BXkJdhDIVRxgbQCwB6fJThW7E4k0kA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 13:49:57 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2255"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229l9G5Sydtyr1t\u002BXkJdhDIVRxgbQCwB6fJThW7E4k0kA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 13:19:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Mafix/reports/Maquina.4cj8z4q6vc.frx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\reports\Maquina.frx'))</AssetFile>

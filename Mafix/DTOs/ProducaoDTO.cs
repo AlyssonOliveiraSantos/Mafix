@@ -8,14 +8,14 @@ namespace Mafix.DTOs
         public int Id { get; set; }
         [Required(ErrorMessage = "Selecione o operador")]
         public string OperadorNome { get; set; }
-        public int OperadorId { get; set; }
+        public int? OperadorId { get; set; }
         [Required(ErrorMessage = "Selecione a maquina")]
         public string MaquinaNome { get; set; }
-        public int MaquinaId { get; set; }
+        public int? MaquinaId { get; set; }
         [Required(ErrorMessage = "Selecione o produto")]
         public string ProdutoNome { get; set; }
-        public int ProdutoId { get; set; }
-        public int ParadaMaquinaId { get; set; }
+        public int? ProdutoId { get; set; }
+        public int? ParadaMaquinaId { get; set; }
         public int ParadaMaquinaCodigo { get; set; }
 
         [Required(ErrorMessage = "Digite a quantidade produzida")]
